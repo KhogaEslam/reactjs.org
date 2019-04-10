@@ -59,9 +59,6 @@ class Counter extends React.Component {
     this.state = {count: 0};
     this.handleClick = this.handleClick.bind(this);
   }
-  componentDidMount() {
-    document.title = `You clicked ${this.state.count} times`;
-  }
   componentDidUpdate() {
     document.title = `You clicked ${this.state.count} times`;
   }
